@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.LamViecVoiRycyclerView.RycyclerViewDemo2345"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclerViewDemo.rycyclerView2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.LongTermData.SavedDataSQLite"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.LongTermData.LongTermDataSaved"
+            android:exported="false" />
+
+
+        <activity
+            android:name="com.example.LamViecVoiDanhSach.LamViecVoiListView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.XuLyDanhSanh.ListViewDeMo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclerViewDemo.recyclerViewWithAdvancedEvent"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclerViewDemo.RecyclerViewDemo"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.example.recyclerViewDemo.ListView"
+            android:exported="false" />
+        <activity
+            android:name=".CongHaiSo23"
+            android:exported="false" />
+        <activity
+            android:name=".XuLySuKienRadioButton"
+            android:exported="false" />
+        <activity
+            android:name=".CongHaiSo"
+            android:exported="false" />
+        <activity
+            android:name=".eventForCheckBox.XuLyCheckBox"
+            android:exported="false" />
+        <activity
+            android:name=".XuLySuKienChoCheckBox"
+            android:exported="false" />
+        <activity
+            android:name=".XuLySuKienChoRadio"
+            android:exported="false" />
+        <activity
+            android:name=".Sum2Number"
+            android:exported="false" />
+        <activity
+            android:name=".EventEditText"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeMyApp"
+            android:exported="false" />
+        <activity
+            android:name=".MultiEventHandle"
+            android:exported="false" />
+        <activity
+            android:name=".checkBox.EventForCheckBox"
+            android:exported="false" />
+        <activity
+            android:name=".EventForEditText"
+            android:exported="false" />
+        <activity
+            android:name=".EventOnRadioButon"
+            android:exported="false" />
+        <activity
+            android:name=".TinhTongHaiSo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tuan22MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DemoCongKotlin"
+            android:exported="false" />
+        <activity
+            android:name=".LoginDemo"
+            android:exported="false" />
+    </application>
+
+</manifest>
