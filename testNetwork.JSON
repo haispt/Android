@@ -1,15 +1,13 @@
-{
+[{
   "ten": "Nguyễn Văn A",
-  "tuoi": 30,
-  "diaChi": {
-    "soNha": "123",
-    "duong": "Đường ABC",
-    "quan": "Quận XYZ",
-    "thanhPho": "Thái Nguyên"
-  },
+  "tuoi": 21,
   "soDienThoai": "0987654321",
   "email": "nguyenvana@example.com",
-  "daKetHon": false,
-  "congViec": null,
-  "cacMonHoc": ["Lập trình", "Cơ sở dữ liệu", "Mạng máy tính"]
-}
+  },
+  {
+    "ten": "Tran Thi B",
+    "tuoi": 22,
+    "email": "tranthib@example.com",
+    "soDienThoai": "0123456789"
+  }
+]
