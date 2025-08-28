@@ -1,13 +1,20 @@
-[{
-  "ten": "Nguyễn Văn A",
-  "tuoi": 21,
-  "soDienThoai": "0987654321",
-  "email": "nguyenvana@example.com",
+[
+  {
+    "ten": "Nguyen Van A",
+    "tuoi": 20,
+    "email": "a@example.com",
+    "soDienThoai": "0123456789"
   },
   {
     "ten": "Tran Thi B",
     "tuoi": 22,
-    "email": "tranthib@example.com",
-    "soDienThoai": "0123456789"
+    "email": "b@example.com",
+    "soDienThoai": "0987654321"
+  },
+  {
+    "ten": "Le Van C",
+    "tuoi": 25,
+    "email": "c@example.com",
+    "soDienThoai": "0111222333"
   }
 ]
